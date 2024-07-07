@@ -34,5 +34,12 @@ public class Operadores {
         System.out.println(num ++);
         System.out.println(num --);
         System.out.println(-- num);
+
+        String nomeUm = "Marcos";
+        String nomeDois = new String("Marcos");
+
+        // Para comparação de conteúdo utiliza-se equals(), já para objetos utiliza-se == OU ===
+        System.out.println(nomeUm == nomeDois); // false
+        System.out.println(nomeUm.equals(nomeDois)); // true
     }
 }
