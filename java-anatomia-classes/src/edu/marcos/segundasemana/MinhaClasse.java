@@ -1,3 +1,5 @@
+package edu.marcos.segundasemana;
+
 public class MinhaClasse {
     public static void main(String[] args) {
         String primeiroNome = "Marcos";
