@@ -23,6 +23,11 @@ public class Operadores {
             num = num + 2;
 
             System.out.println(num);
+
+            String result = num == num - 2 ? "sim" : "não";
+
+            System.out.println(result);
+            
         }
 
         System.out.println(++ num);
