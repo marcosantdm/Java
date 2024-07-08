@@ -7,6 +7,8 @@ public class CaixaEletronico {
             saldo = saldo - valorSolicitado;
             
             System.out.println("Saque realizado com sucesso! Seu novo saldo é de " + saldo);
+        } else {
+            System.out.println("Saldo insuficiente para realizar o saque.");
         }
     }
 }
